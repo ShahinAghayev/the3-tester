@@ -7,7 +7,7 @@ test_data_length = len(dataset['X_test'])
 true_count = 0
 tot_count = 0
 for i in range(test_data_length):
-    if(test.gulnihal[i]==forward_pass(network3,dataset['X_test'][i])):
+    if(test.berk[i]==forward_pass(network3,dataset['X_test'][i])):
         true_count +=1
     tot_count += 1
 
